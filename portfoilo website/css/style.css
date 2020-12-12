@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+.jumbotron {
+  height: 40vh;
+}
+
+
+
+
+.container-homepage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.text-align {
+  text-align: left;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+ .jumbotron {
+   height: auto;
+ }
+
+ .section-padding {
+    padding-top: 50px;
+
+ }
+
+ .card
+
+
+
+
+
+ 
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .jumbotron {
+    height: auto;
+  }
+  
+  img {
+    width: 40px;
+    height: 50px;
+  }
+
+.card {
+  margin: 15px;
+}
+}
+
